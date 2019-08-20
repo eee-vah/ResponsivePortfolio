@@ -72,13 +72,10 @@ section {
 #profileimg {
     width: 25%;
     padding-top: 20px;
-    /* display: inline; */
     float: left;
     margin-right: 20px;
 }
 .bio {
-    /* width: 700px; */
-    /* float: left; */
     font-size: larger;
     text-align: justify;
     line-height: 40px;
@@ -88,7 +85,6 @@ section {
     font-size: larger;
     text-align: justify;
     line-height: 40px;
-    /* margin-bottom: 20px; */
 }
 /* contact page */
 form {
@@ -122,30 +118,17 @@ button {
     margin: 20px 40px 20px 0px;
 }
 .crochetimg {
-    /* width: 310px; */
     width: 100%;
     height: 100%;
-    /* overflow: auto;
-    clear: both; */
     position: absolute;
-    /* margin: 20px; */
-    /* display: inline; */
-    /* float: left; */
-    /* margin-top: 20px; */
-    /* z-index: 1px; */
 }
 .project {
     background-color: #beabd4;
     color: white;
     text-align: center;
-    /* width: 310px; */
-    /* width: 33%; */
     padding: 15px 0px;
     margin-top: 240px;
-    /* margin-bottom: 10px; */
     position: relative;
-    /* clear: both; */
-    /* z-index: 2px; */
 }
 @media screen and (max-width: 980px) {
 h1 {
