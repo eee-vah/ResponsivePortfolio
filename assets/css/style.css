@@ -1,0 +1,225 @@
+/* all pages */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/sativa.png);
+    padding: 0;
+    margin: 0;
+}
+div {
+    width: 960px;
+    margin: auto;
+}
+.headerContainer {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+.header {
+    width: 960px;
+    background-color: #ffffff;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #beabd4;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 0px -20px;
+    display: inline-block;
+}
+.nav {
+    float: right;
+    padding: 20px;
+    padding-right: 0px;
+    margin-right: -30px;
+}
+a {
+    padding: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #777777;
+}
+.contentContainer{
+    border-color: #dddddd;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+h2 {
+    color: #beabd4;
+    padding-bottom: 15px;
+    margin: 0;
+}
+hr {
+    border: 2px solid #e2e2e2
+}
+section {
+    background-color: #beabd4;
+    height: 5px;
+}
+.footnote {
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 35px;
+    height: 30px;
+    font-size: 10px;
+}
+/* index page */
+#profileimg {
+    width: 25%;
+    padding-top: 20px;
+    /* display: inline; */
+    float: left;
+    margin-right: 20px;
+}
+.bio {
+    /* width: 700px; */
+    /* float: left; */
+    font-size: larger;
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.crochet {
+    font-size: larger;
+    text-align: justify;
+    line-height: 40px;
+    /* margin-bottom: 20px; */
+}
+/* contact page */
+form {
+    padding-top: 20px;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 98.5%;
+}
+textarea {
+    margin-top: 5px;
+    width: 99.3%;
+    height: 250px;
+}
+button {
+    background-color: #beabd4;
+    border-style: none;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+/* portfolio page */
+.container {
+    position: relative;
+    overflow: auto;
+    clear: both;
+    display: inline-block;
+    width: 33%;
+    margin: 20px 40px 20px 0px;
+}
+.crochetimg {
+    /* width: 310px; */
+    width: 100%;
+    height: 100%;
+    /* overflow: auto;
+    clear: both; */
+    position: absolute;
+    /* margin: 20px; */
+    /* display: inline; */
+    /* float: left; */
+    /* margin-top: 20px; */
+    /* z-index: 1px; */
+}
+.project {
+    background-color: #beabd4;
+    color: white;
+    text-align: center;
+    /* width: 310px; */
+    /* width: 33%; */
+    padding: 15px 0px;
+    margin-top: 240px;
+    /* margin-bottom: 10px; */
+    position: relative;
+    /* clear: both; */
+    /* z-index: 2px; */
+}
+@media screen and (max-width: 980px) {
+h1 {
+    margin-left: 10px;
+}
+.nav {
+    margin-right: 10px;
+}
+.contentContainer {
+    width: 620px;
+    margin: 20px;
+}
+.footnote {
+    padding-bottom: 20px;
+}
+#profileimg {
+    width: 240px;
+}
+.bio {
+    width: auto;
+}
+.container {
+    width: 44%;
+    margin: 17px;
+}
+}
+@media screen and (max-width: 768px) {
+.header {
+    width: 100%;
+}
+.contentContainer {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    width: 44%;
+    margin: 20px;
+}
+}
+@media screen and (max-width: 640px) {
+header {
+    width: 100%;
+    position: static;
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.nav {
+    width: 640px;
+    float: none;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 0px;
+}
+.contentContainer {
+    overflow: auto;
+    clear: both;
+}
+#profileimg {
+    width: 580px;
+    margin: 0px 30px 10px 0px;
+}
+.container {
+    display: block;
+    width: 580px;
+    height: 580px;
+    margin: 30px 10px 40px 0px;
+}
+.project {
+    margin-top: 500px;
+}
+}
